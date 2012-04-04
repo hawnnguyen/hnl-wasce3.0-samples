@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Licensed material - Property of IBM.
+    Restricted Materials of IBM
+    (c) Copyright 2005,2010 IBM Corporation. All rights reserved.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    
+    <modelVersion>4.0.0</modelVersion>
+    
+    <parent>
+		<groupId>com.sti.wholesale</groupId>
+		<artifactId>sti_wholesale</artifactId>
+		<version>1.0.0</version>
+    </parent>
+
+    <groupId>com.sti.wholesale.applications</groupId>
+    <artifactId>applications</artifactId>
+    <name>WASCE SunTrust Wholesale Applications</name>
+    <packaging>pom</packaging>  
+    
+    <modules>       
+        <module>leasing</module>
+    </modules>    
+</project>
